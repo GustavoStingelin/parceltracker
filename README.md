@@ -1,4 +1,4 @@
-Use the get method with the track code for return events json.
+Use the get method with the track code to return events json.
 
 GET-> http://localhost/api/v1/get_track/LB084562135HK
 
