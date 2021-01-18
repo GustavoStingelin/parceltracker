@@ -1,3 +1,29 @@
+Use the get method with the track code for return events json.
+
+GET-> http://localhost/api/v1/get_track/LB084562135HK
+
+Return-> {
+  "0": {
+    "date": "04\/01\/2021",
+    "hour": "13:03",
+    "location": "ARAUCARIA\/PR",
+    "action": "Objeto entregue ao destinatário",
+    "message": "Objeto entregue ao destinatário ",
+    "change": "há 14 dias"
+  },
+  "1": {
+    "date": "04\/01\/2021",
+    "hour": "09:23",
+    "location": "ARAUCARIA\/PR",
+    "action": "Objeto saiu para entrega ao destinatário",
+    "message": "Objeto saiu para entrega ao destinatário ",
+    "change": "há 14 dias"
+  }
+}
+
+
+
+
 # Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
